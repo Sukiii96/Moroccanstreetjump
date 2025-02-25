@@ -7,8 +7,9 @@ canvas.width = 800;
 canvas.height = 300;
 
 // 🎭 Load Character & Obstacles Sprites
+// 🎭 Load Character & Obstacle Sprites
 const playerImg = new Image();
-playerImg.src = "assets/moroccan-runner.png"; // Djellaba + fez + belgha
+playerImg.src = "assets/moroccan-runner.png"; // Djellaba + Fez + Belgha
 
 const tajineImg = new Image();
 tajineImg.src = "assets/tajine.png";
@@ -93,6 +94,7 @@ function update() {
     score++;
 }
 
+// 🍽️ Spawn Moroccan Food Obstacles
 // 🍽️ Spawn Moroccan Food Obstacles
 function spawnObstacle() {
     let type = Math.floor(Math.random() * 4);
