@@ -7,7 +7,7 @@ body {
 }
 
 canvas {
-    border: 2px solid white;
-    background: url('assets/ramadan-street.jpg') no-repeat center;
+   canvas {
+    background: url('assets/moroccan-street.jpg') no-repeat center center;
     background-size: cover;
 }
