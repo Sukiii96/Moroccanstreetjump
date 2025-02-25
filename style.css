@@ -1,13 +1,13 @@
 body {
     text-align: center;
     font-family: "Arial", sans-serif;
-    background: url('assets/moroccan-medina.png') no-repeat center center fixed;
+    background: url('assets/moroccan-street.png') no-repeat center center fixed;
     background-size: cover;
     color: white;
 }
 
 canvas {
-   canvas {
     background: url('assets/moroccan-street.png') no-repeat center center;
     background-size: cover;
 }
+
